@@ -2,5 +2,6 @@
     "testFiles": "**/*.feature",
     "baseUrl": "http://automationpractice.com/",
     "waitForAnimations": false,
-    "animationDistanceThreshold": 50
+    "animationDistanceThreshold": 50,
+    "video": false
 }
