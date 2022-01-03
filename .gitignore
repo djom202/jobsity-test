@@ -33,3 +33,7 @@ package-lock.json
 cypress/fixtures/example.json
 cypress/integration/1-getting-started/*.js
 cypress/integration/2-advanced-examples/*.js
+
+# Cypress test run output
+/cypress/videos
+/cypress/screenshots
