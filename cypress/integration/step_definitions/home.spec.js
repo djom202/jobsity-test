@@ -4,6 +4,7 @@
 import { Given } from 'cypress-cucumber-preprocessor/steps'
 
 Given('I open Home page', () => {
+    cy.viewport('macbook-13')
     cy.visit('/')
 })
 
