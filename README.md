@@ -35,7 +35,7 @@ exports PERCY_POSTINSTALL_BROWSER=true
 
 Now you could re-install the dependencies and the Chrome driver will be downloaded.
 
-## Configurating Percy
+## Running and configurate the Percy tests
 
 
 You'll need to create a percy account [here](https://percy.io/login) in order to get a `PERCY_TOKEN`, but don't worries, you can get access to Percy's core features which include unlimited users and 5000 screenshots/month FREE.
@@ -70,6 +70,25 @@ $ npm run ppt
 Amazing!, You'll have run the base line from the master branch and now you'll be able to see them on your Percy dashboard. After that you'll need make some changes and seeing the snapshots and visual diffs in Percy.
 
 Super fun! You've already ran a picel-perfect test on Percy
+
+
+## Running the Cypress tests
+
+In order to run the cypress test suite, you'll need to run the next command:
+
+```
+npx cypress open
+```
+
+This command to allow you to open the Cypress Studio where you'll see the list of the test suite created to this test organized under the folder ***Features*** as follows:
+
+- Cart.feature
+- Contact.feature
+- Home.feature
+- Search.feature
+
+After that you'll just need to do click over the test that you want to run and Cypress will open the Browser in order to run the suite selected before.
+
 
 ## License
 
